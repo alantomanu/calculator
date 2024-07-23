@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="mainbody">
+        <div class="calc">
+            <h1>Calculator</h1>
+            <div class="output">
+                <input type="text" class="screen" id="display">
+            </div>
+            <div class="input">
+                <table class="tbalign">
+                    <tr>
+                        <td><button class="btalign" onclick="inp('7')">7</button></td>
+                        <td><button class="btalign" onclick="inp('8')">8</button></td>
+                        <td><button class="btalign" onclick="inp('9')">9</button></td>
+                        <td><button class="btalign" onclick="equalclick()">=</button></td>
+                        <td><button class="btalign" onclick="cleardisplay()">clr</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btalign" onclick="inp('4')">4</button></td>
+                        <td><button class="btalign" onclick="inp('5')">5</button></td>
+                        <td><button class="btalign" onclick="inp('6')">6</button></td>
+                        <td><button class="btalign" onclick="multiplication()">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btalign" onclick="inp('1')">1</button></td>
+                        <td><button class="btalign" onclick="inp('2')">2</button></td>
+                        <td><button class="btalign" onclick="inp('3')">3</button></td>
+                        <td><button class="btalign" onclick="substraction()">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btalign" onclick="inp('0')">0</button></td>
+                        <td><button class="btalign" onclick="inp('.')">.</button></td>
+                        <td><button class="btalign" onclick="addition('+')">+</button></td>
+                        <td><button class="btalign" onclick="division()">/</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
